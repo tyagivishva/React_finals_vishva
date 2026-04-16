@@ -1,0 +1,16 @@
+
+[
+    
+{ "id": 1, "name": "Alice Johnson", "department": "IT", "salary": 75000 },
+{ "id": 2, "name": "Bob Smith", "department": "HR", "salary": 55000 },
+{ "id": 3, "name": "Carol Lee", "department": "Finance", "salary": 90000 },
+{ "id": 4, "name": "David Brown", "department": "IT", "salary": 80000 },
+{ "id": 5, "name": "Eve Davis", "department": "HR", "salary": 60000 },
+{ "id": 6, "name": "Frank Wilson", "department": "Finance", "salary": 95000 },
+{ "id": 7, "name": "Grace Miller", "department": "IT", "salary": 78000 },
+{ "id": 8, "name": "Hank Taylor", "department": "HR", "salary": 62000 },
+{ "id": 9, "name": "Ivy Anderson", "department": "Finance", "salary": 92000 },
+{ "id": 10, "name": "Jack Thomas", "department": "IT", "salary": 77000 }
+
+
+]
