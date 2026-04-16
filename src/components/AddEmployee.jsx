@@ -7,17 +7,15 @@ const AddEmployee = ({ addEmployee, setView }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (name && salary && department> 0){
+    if (name && salary && department){
         const newId = Date.now(); // Generate a unique ID based on the current timestamp
         addEmployee({ id: newId, name, department, salary: parseFloat(salary) });
         setView("list");
+        // Reset form fields
+        setName("");
+        setDepartment("HR");
+        setSalary("");
     }
-    addEmployee(newEmployee);
-    setView("list");
-    // Reset form fields
-    setName("");
-    setDepartment("HR");
-    setSalary("");
   };
   
   return (

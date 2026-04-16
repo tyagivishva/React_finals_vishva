@@ -22,13 +22,11 @@ function App() {
     <div className="App">
       {view === "list" ? (
         <div>
-          <EmployeeList employees={employees} />
-          <button onClick={() => setView("form")}>Add Employee</button>
+          <EmployeeList employees={employees} setView={setView} />
         </div> 
       ) : (
         <div>
-          <AddEmployee addEmployee={addEmployee} />
-          <button onClick={() => setView("list")}>Back to List</button>
+          <AddEmployee addEmployee={addEmployee} setView={setView} />
         </div>
       )}
         

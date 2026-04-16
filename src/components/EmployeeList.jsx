@@ -21,7 +21,7 @@ const EmployeeList = ({ employees, setView }) => {
                 ))}
             </tbody>
         </table>
-        <button onClick={() => setView("add")}>Add Employee</button>
+        <button onClick={() => setView("form")}>Add Employee</button>
     </div>
   );
 };
